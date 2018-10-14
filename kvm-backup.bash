@@ -74,7 +74,7 @@ for DOMAIN in $DOMAINS; do
 	echo "Finished backup of $DOMAIN at $(date +'%d-%m-%Y %H:%M:%S')" >> $LOG
 
 	#Now we email the log file using ssmtp
-	ssmtp yourname@yourdomain.com < $LOG
+	/usr/sbin/ssmtp yourname@yourdomain.com < $LOG
 done
 
 exit 0
