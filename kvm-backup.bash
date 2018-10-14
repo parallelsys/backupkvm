@@ -3,7 +3,7 @@
 #Credit to cabal95.
 #Edited for my env.
 #The idea is to run silent.
-#
+#v1.0c
 #Set log and date/time
 DATE=`date +%Y-%m-%d.%H:%M:%S`
 LOG=/var/log/kvm-backup.$DATE.LOG
